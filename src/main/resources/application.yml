@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: ci-cs-pipeline
+  datasource:
+    username: postgres
+    password: P0S1tiv@!
+    url: jdbc:postgresql://localhost:5432/student_db
+  jpa:
+    hibernate:
+      ddl-auto: create
+    database: postgresql
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: truec
